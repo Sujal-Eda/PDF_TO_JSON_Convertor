@@ -16,28 +16,33 @@ The project uses:
 - Python standard libraries (`json`, `os`, `re`) for processing.
 
 
- 1. Clone or download this repository
+# 1. Clone or download this repository
 ```bash```
 git clone https://github.com/Sujal-Eda/PDF_TO_JSON_Convertor.git
 cd PDF_TO_JSON_Convertor
 
-2. Create a virtual environment
+
+# 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate   # for Linux / macOS
 venv\Scripts\activate      # for Windows
 
-3. Install Dependencies
+
+# 3. Install Dependencies
 pip install pymupdf
 pip install pdfplumber
 pip install pandas
 pip install PyMuPDF4LLM #incase you are using PyMuPDF4LLM
 
-4.Run the Script 
+
+# 4.Run the Script 
 python main.py --pdf "THE_PDF_WE_WISH_TO_EXTRACT" --out "output.json"
 
-5.CHECK THE JSON OUTPUT.....
 
-References
+# 5.CHECK THE JSON OUTPUT.....
+
+
+# References
 
 While preparing this project, I reviewed:
 
